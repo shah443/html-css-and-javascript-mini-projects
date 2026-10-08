@@ -1,0 +1,76 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+    padding: 0 5rem;
+}
+
+.icon{
+    cursor: pointer;
+}
+
+.icon div{
+    height: 3px;
+    width: 2rem;
+    background-color: black;
+    margin-bottom: 3px;
+}
+
+nav{
+    background-color: #edededba;
+    position: absolute;
+    top: 0;
+    right: -30rem;
+    height: 100vh;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 2rem;
+    transition: all 1s linear;
+}
+
+nav ul a{
+    font-size: 3rem;
+}
+
+nav ul a:hover{
+    text-decoration: underline;
+}
+
+nav ul li{
+    margin-bottom: 3rem;
+}
+
+nav svg{
+    width: 3rem;
+    position: absolute;
+    top: 3rem;
+    right: 3rem;
+    cursor: pointer;
+}
