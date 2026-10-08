@@ -1,0 +1,47 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#password-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    border: 2px solid red;
+
+    margin: 10rem auto;
+    padding: 5rem;
+
+    gap: 2rem;
+
+    width: 400px;
+}
+
+#password-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 1rem;
+    font-size: larger;
+}
+
+#password-box button {
+    padding: 0.5rem;
+}
+
+#password-box input {
+    padding: 0.7rem;
+}
+

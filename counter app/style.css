@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+gap: 3rem;
+height: 100vh;
+
+}
+.count p{
+    font-size: 4rem;
+    font-weight:bold;
+}
+.buttons button{
+    padding: 1rem;
+    background-color: rgb(221, 27, 27);
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: .5rem;
+}
+
+.buttons button svg{
+    width: 1rem;
+}
+#resetCounter{
+   padding: 1rem 1.5rem;
+   background-color: rgb(43, 152, 255);
+   color: white;
+   border: none;
+   cursor: pointer;
+   border-radius: 4px;
+}
